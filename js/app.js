@@ -941,8 +941,8 @@ class NursingAssessmentApp {
 
         if (!introVideo || !loopVideo) return;
 
-        introVideo.src = '../videos/intro-p3r.mp4';
-        loopVideo.src = '../videos/loop-p3r.mp4';
+        introVideo.src = 'videos/intro-p3r.mp4';
+        loopVideo.src = 'videos/loop-p3r.mp4';
 
         introVideo.style.display = 'block';
         loopVideo.style.display = 'none';
